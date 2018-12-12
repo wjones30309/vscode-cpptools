@@ -38,8 +38,8 @@ export class CppSettings extends Settings {
     public get formatting(): string { return super.Section.get<string>("formatting"); }
     public get intelliSenseEngine(): string { return super.Section.get<string>("intelliSenseEngine"); }
     public get intelliSenseEngineFallback(): string { return super.Section.get<string>("intelliSenseEngineFallback"); }
-    public get cachePath(): string { return super.Section.get<string>("intelliSense.cachePath"); }
-    public get cacheSize(): number { return super.Section.get<number>("intelliSense.cacheSize"); }
+    public get intelliSenseCachePath(): string { return super.Section.get<string>("intelliSense.cachePath"); }
+    public get intelliSenseCacheSize(): number { return super.Section.get<number>("intelliSense.cacheSize"); }
     public get errorSquiggles(): string { return super.Section.get<string>("errorSquiggles"); }
     public get dimInactiveRegions(): boolean { return super.Section.get<boolean>("dimInactiveRegions"); }
     public get inactiveRegionOpacity(): number { return super.Section.get<number>("inactiveRegionOpacity"); }
